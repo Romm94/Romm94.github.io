@@ -1,0 +1,85 @@
+/* Make sure to utilize CSS file*/
+
+
+/* Index file start*/
+
+.Mission1 {
+    border: solid 10px;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(247, 236, 91, 1);
+}
+
+/* Index file end*/
+
+/* This is applied to all pages uniform scheme*/
+body {
+    background-image: url(../assets/BGImage1.jpg);
+
+}
+
+/* This is for forms*/
+
+#uppersection {
+    border: solid 1px;
+    margin: 20px;
+    border-radius: 20px 5px 20px 5px;
+    background-color: rgba(247, 236, 91, 1);
+}
+
+
+#personalinfo {
+    border: solid 1px;
+    padding: 15px;
+    background-color: rgba(247, 236, 91, 1);
+    border-color: rgba(247, 236, 91, 1);
+    margin: 20px;
+    border-radius: 20px 5px 20px 5px;
+}
+
+#eventsinfo {
+    border: solid 1px;
+    padding: 15px;
+    background-color: rgba(247, 236, 91, 1);
+    border-color: rgba(247, 236, 91, 1);
+    margin: 20px;
+    border-radius: 20px 5px 20px 5px;
+}
+
+/* end for forms*/
+
+/* About page css*/
+
+#Aboutbody {
+    border: solid 5px;
+    padding: 15px;
+    background-color: rgba(247, 236, 91, 1);
+    border-color: rgba(247, 236, 91, 1);
+    margin: 20px;
+    border-radius: 20px;
+}
+
+
+/* end for about*/
+/* Contacts page css*/
+
+#Contactstextarea1 {
+    border: solid 5px;
+    padding: 30px;
+    background-color: rgba(247, 236, 91, 1);
+    border-color: rgba(247, 236, 91, 1);
+    margin: 10px;
+    border-radius: 20px;
+}
+
+#contactheader1 {
+    border: solid 1px;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: rgba(247, 236, 91, 1);
+    padding-top: 15px;
+    padding-bottom: 20px;
+    border-color: rgba(247, 236, 91, 1);
+}
