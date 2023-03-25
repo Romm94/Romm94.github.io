@@ -9,7 +9,7 @@
     padding-left: 10px;
     padding-right: 10px;
     margin-bottom: 10px;
-    background-color: rgba(247, 236, 91, 1);
+
 }
 
 /* Index file end*/
@@ -26,14 +26,13 @@ body {
     border: solid 1px;
     margin: 20px;
     border-radius: 20px 5px 20px 5px;
-    background-color: rgba(247, 236, 91, 1);
+
 }
 
 
 #personalinfo {
     border: solid 1px;
     padding: 15px;
-    background-color: rgba(247, 236, 91, 1);
     border-color: rgba(247, 236, 91, 1);
     margin: 20px;
     border-radius: 20px 5px 20px 5px;
@@ -42,7 +41,6 @@ body {
 #eventsinfo {
     border: solid 1px;
     padding: 15px;
-    background-color: rgba(247, 236, 91, 1);
     border-color: rgba(247, 236, 91, 1);
     margin: 20px;
     border-radius: 20px 5px 20px 5px;
@@ -68,7 +66,6 @@ body {
 #Contactstextarea1 {
     border: solid 5px;
     padding: 30px;
-    background-color: rgba(247, 236, 91, 1);
     border-color: rgba(247, 236, 91, 1);
     margin: 10px;
     border-radius: 20px;
@@ -78,7 +75,6 @@ body {
     border: solid 1px;
     margin: 20px;
     border-radius: 20px;
-    background-color: rgba(247, 236, 91, 1);
     padding-top: 15px;
     padding-bottom: 20px;
     border-color: rgba(247, 236, 91, 1);
