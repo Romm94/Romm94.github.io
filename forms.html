@@ -48,63 +48,80 @@
         </nav>
         <!-- Forms Content-->
      <section class="container px-lg-5">
-             <div class="p-5 text-center bg-warning" id="uppersection">
-                    <h1 class="text-center p-5" style="background-color: rgba(0, 0, 0, 0.2);">Hooray!! So, let's begin with our little journey.</h1>
+             <div class="text-center" id="uppersection" style="background-color: rgba(255, 255, 255, 0.8);">
+                    <h1 class="text-center p-4" id="innertext1">Hooray!! So, let's begin with our little journey.</h1>
             </div>
             <form> 
-              <div class="row g-3 bg-warning" id="personalinfo">
+              <div class="row g-3 bg-light" id="personalinfo">
                 <div> 
                     <h4 class="mb-3 text-center">First of all, we want to know more about you.</h4>
                 </div>
-                <div class="col-md-6 position-relative">
-                    <label for="inputName1" class="form-label p-3 mb-2">First name</label>
+                <div class="col-md-6">
+                    <label for="inputName1" class="form-label p-3 mb-2 fw-bold">First name</label>
                     <input type="text" class="form-control" id="inputName1" maxlength="40" required>
                 </div>
                 <div class="col-md-6">
-                    <label for="inputName2" class="form-label p-3 mb-2">Last name</label>
+                    <label for="inputName2" class="form-label p-3 mb-2 fw-bold">Last name</label>
                     <input type="text" class="form-control" id="inputName2" maxlength="40" required>
                 </div>
+                <hr>
                 <div class="col-12">
-                  <label for="inputAddress" class="form-label p-3 mb-2">Address</label>
+                  <label for="inputAddress" class="form-label p-3 mb-2 fw-bold">Address</label>
                   <input type="text" class="form-control" id="inputAddress" placeholder="House no./Ste. no./Block/Etc" maxlength="40" required>
                 </div>
                 <div class="col-12">
-                  <label for="inputAddress2" class="form-label p-3 mb-2">Address 2</label>
+                  <label for="inputAddress2" class="form-label p-3 mb-2 fw-bold">Address 2</label>
                   <input type="text" class="form-control" id="inputAddress2" placeholder="Street/Dr./Ave./Etc" maxlength="40">
                 </div>
+                <hr>
                 <div class="col-md-6">
-                  <label for="inputCity" class="form-label p-3 mb-2">City</label>
+                  <label for="inputCity" class="form-label p-3 mb-2 fw-bold">City</label>
                   <input type="text" class="form-control" id="inputCity" maxlength="40">
                 </div>
                 <div class="col-md-4">
-                  <label for="inputState" class="form-label p-3 mb-2">State/Province</label>
+                  <label for="inputState" class="form-label p-3 mb-2 fw-bold">State/Province</label>
                   <input type="text" class="form-control" id="inputState" maxlength="40">
                 </div>
                 <div class="col-md-2">
-                  <label for="inputZip" class="form-label p-3 mb-2">Zip</label>
+                  <label for="inputZip" class="form-label p-3 mb-2 fw-bold">Zip</label>
                   <input type="text" class="form-control" id="inputZip" maxlength="10">
                 </div>
+                <hr>
                 <div class="col-md-6">
-                    <label for="inputContactNumber" class="form-label p-3 mb-2">Contact number</label>
+                    <label for="inputContactNumber" class="form-label p-3 mb-2 fw-bold">Contact number</label>
                     <input type="number" class="form-control" id="inputContactNumber" maxlength="40" required>
                 </div>
                 <div class="col-md-6">
-                    <label for="inputEmail" class="form-label p-3 mb-2">Email</label>
+                    <label for="inputEmail" class="form-label p-3 mb-2 fw-bold">Email</label>
                     <input type="email" class="form-control" id="inputEmail" maxlength="50" placeholder="test@domain.com" required>
                 </div>
-                <div class="col-md-3">
-                    <label for="inputDOB" class="form-label p-3 mb-2">Date of Birth</label>
-                    <input type="date" class="form-control" id="inputDOB" required>
+                <div class="container">
+                  <div class="row align-items-end">
+                     <div class="col-6 fw-bold">
+                         <label for="inputDOB" class="form-label p-3 mb-2">Date of Birth</label>
+                         <input type="date" class="form-control" id="inputDOB" required>
+                     </div>
+                        <br>
+                     <div class="col-6 fw-bold">
+                          <p>How did you find us?</p>
+                     <select class="form-select" aria-label="Default select example">
+                          <option selected>1. Social Media ads</option>
+                          <option value="1">2. Recommend by a friend</option>
+                          <option value="2">3. Blog or Publications</option>
+                          <option value="3">4. Search engine (Google, Yahoo, Etc.)</option>
+                          <option value="4">5. Other</option>
+                     </select>
+                     </div>
+                  </div>
                 </div>
               </div>
-              <div>
             <!-- end for personal info-->
             <!-- event details start-->
-                <div class="row g-3 bg-warning" id="eventsinfo">
+                <div class="row g-3 bg-light" id="eventsinfo">
                     <div> 
                         <h4 class="mb-3 text-center">And now for the main event!</h4>
                     </div>
-                    <div>So, what are we celebrating? <!-- Event that will take place-->
+                    <div class="fw-bold">So, what are we celebrating? <!-- Event that will take place-->
                     <select class="form-select" aria-label="Default select example">
                         <option selected>Birthday</option>
                         <option value="1">Graduation</option>
@@ -115,7 +132,7 @@
                         <option value="6">Etc.</option>
                       </select>
                     </div><!-- service that would like to avail-->
-                    <div>How do you want us to send your invitation?
+                    <div class="fw-bold">How do you want us to send your invitation?
                          <div class="form-check">
                               <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                               <label class="form-check-label" for="flexRadioDefault1">Thru mail (Printed Invitation).
@@ -143,10 +160,10 @@
                          </div>
                     </div>
                     <div class="col-md-3">
-                        <label for="inputEventsDate" class="form-label p-3 mb-2">When will it be held?</label>
+                        <label for="inputEventsDate" class="form-label p-3 mb-2 fw-bold">When will it be held?</label>
                         <input type="date" class="form-control" id="inputEventsDate" required>
                     </div>
-                    <div>What's the theme? <!-- motif of the party-->
+                    <div class="fw-bold">What's the theme? <!-- motif of the party-->
                         <select class="form-select" aria-label="Default select example">
                             <option selected>1. TV-themed party</option>
                             <option value="1">2. Decade-themed party</option>
@@ -160,13 +177,13 @@
                             <option value="9">10. Other-theme</option>
                           </select>
                     </div>
-                    <div>Please describe further the motif that you want, any request or additional info that will make the designs grand. <!-- suggestions, additional info-->
+                    <div><strong>Please describe further the motif that you want, any request or additional info that will make the designs grand.</strong> <!-- suggestions, additional info-->
                          <div class="form-floating">
                             <textarea class="form-control" placeholder="Example: I want a 80's pop dance party" id="floatingTextarea" maxlength="600"></textarea>
                             <label for="floatingTextarea">Comments</label>
                          </div>
                     </div>
-                    <div>If you want to add a photo that will be included in the invitation that we will be sending, you can upload it here. <!-- file, size must be below 10mb-->
+                    <div class="fw-bold">If you want to add a photo that will be included in the invitation that we will be sending, you can upload it here. <!-- file, size must be below 10mb-->
                             <br>
                             (You can upload up to maximum size of 10MB)
                          <div class="input-group mb-3">
@@ -179,7 +196,7 @@
                     </div>
                     <div class="col-12 text-center">
                         <button class="btn btn-outline-success fw-bold" type="submit">Proceed</button>
-                        <input class="btn btn-outline-light fw-bold" type="reset" value="Reset">
+                        <input class="btn btn-outline-warning fw-bold" type="reset" value="Reset">
                         <a class="btn btn-outline-danger fw-bold" href="./index.html" role="button">Cancel</a>
                     </div>
               </div>

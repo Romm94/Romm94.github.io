@@ -9,7 +9,22 @@
     padding-left: 10px;
     padding-right: 10px;
     margin-bottom: 10px;
+    border-color: rgba(0, 0, 0, 0.6);
 
+}
+
+/* For index/contacts css collapse*/
+#WholeCard1 {
+    border: solid 5px;
+    border-color: rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+}
+
+/* For index slogan*/
+#Slogan1 {
+    border: solid 10px;
+    border-color: rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
 }
 
 /* Index file end*/
@@ -23,25 +38,26 @@ body {
 /* This is for forms*/
 
 #uppersection {
-    border: solid 1px;
+    border: solid 10px;
     margin: 20px;
-    border-radius: 20px 5px 20px 5px;
-
+    border-radius: 20px;
+    border-color: rgba(0, 0, 0, 0.6);
+    /*background-color: white;*/
 }
 
 
 #personalinfo {
-    border: solid 1px;
-    padding: 15px;
-    border-color: rgba(247, 236, 91, 1);
+    border: solid 5px;
+    padding: 15px 15px 30px 15px;
+    border-color: rgba(0, 0, 0, 0.6);
     margin: 20px;
     border-radius: 20px 5px 20px 5px;
 }
 
 #eventsinfo {
-    border: solid 1px;
+    border: solid 5px;
     padding: 15px;
-    border-color: rgba(247, 236, 91, 1);
+    border-color: rgba(0, 0, 0, 0.6);
     margin: 20px;
     border-radius: 20px 5px 20px 5px;
 }
@@ -53,8 +69,8 @@ body {
 #Aboutbody {
     border: solid 5px;
     padding: 15px;
-    background-color: rgba(247, 236, 91, 1);
-    border-color: rgba(247, 236, 91, 1);
+    /*background-color: rgba(247, 236, 91, 1);*/
+    border-color: rgba(0, 0, 0, 0.6);
     margin: 20px;
     border-radius: 20px;
 }
@@ -66,16 +82,16 @@ body {
 #Contactstextarea1 {
     border: solid 5px;
     padding: 30px;
-    border-color: rgba(247, 236, 91, 1);
+    border-color: rgba(0, 0, 0, 0.6);
     margin: 10px;
     border-radius: 20px;
 }
 
 #contactheader1 {
-    border: solid 1px;
+    border: solid 5px;
     margin: 20px;
     border-radius: 20px;
     padding-top: 15px;
     padding-bottom: 20px;
-    border-color: rgba(247, 236, 91, 1);
+    border-color: rgba(0, 0, 0, 0.6);
 }
